@@ -759,7 +759,7 @@ def run():
             <b>Feedback -</b> <br/>
             A place where user can suggest some feedback about the tool.<br/><br/>
             <b>Admin -</b> <br/>
-            For login use <b>admin</b> as username and <b>admin@resume-analyzer</b> as password.<br/>
+            For login use <b>admin</b> as username and <b>admin</b> as password.<br/>
             It will load all the required stuffs and perform analysis.
         </p><br/><br/>
 
@@ -780,7 +780,7 @@ def run():
         if st.button('Login'):
 
             ## Credentials
-            if ad_user == 'admin' and ad_password == 'admin@resume-analyzer':
+            if ad_user == 'admin' and ad_password == 'admin':
 
                 ### Fetch miscellaneous data from user_data(table) and convert it into dataframe
                 cursor.execute('''SELECT ID,
